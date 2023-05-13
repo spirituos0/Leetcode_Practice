@@ -11,7 +11,7 @@ public class minCat {
             return trimmedStr.concat(b);
         } else {
             trimmedStr = b.substring(b.length() - a.length());
-            return a.concat(trimmedStr); }
-
+            return a.concat(trimmedStr);
+        }
     }
 }
